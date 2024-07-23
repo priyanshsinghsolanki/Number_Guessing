@@ -9,7 +9,7 @@ def search(array,low,high,num,count):
     high=high
     mid=math.floor((low+high)/2)
     if count==1:
-        print("You exhausted all your chances....")
+        print("You exhausted all your chances...")
         print("The number was:",num)
         return None
     count-=1
